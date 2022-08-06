@@ -1,0 +1,16 @@
+{
+    "name": "@mowangjuanzi/poetry",
+    "version": "1.0.0",
+    "description": "poetry",
+    "main": "index.js",
+    "repository": "https://github.com/mowangjuanzi/poetry.git",
+    "author": "mowangjuanzi <baoguoxiao0538@hotmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "vuepress": "^2.0.0-beta.49"
+    },
+    "scripts": {
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs"
+    }
+}
